@@ -1,0 +1,23 @@
+{
+    "name": "tibbo-development-vscode",
+    "displayName": "Tibbo Development",
+    "description": "Tibbo IoT Development",
+    "publisher": "tibbotech",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tibbotech/tibbo-development-vscode.git"
+    },
+    "homepage": "https://tibbo.com",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "icon": "images/icon.png",
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "tibbotech.tibbo-basic",
+        "tibbotech.tibbo-debug"
+    ]
+}
